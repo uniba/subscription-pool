@@ -1,0 +1,22 @@
+{
+  "name": "subscription-pool",
+  "description": "Subscription pooling and abstraction layer for Node.js",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "Seiya Konno <nulltask@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:uniba/subscription-pool.git"
+  },
+  "dependencies": {
+    "redis": "~0.10.0",
+    "debug": "~0.7.4"
+  },
+  "devDependencies": {
+    "better-assert": "~1.0.0",
+    "mocha": "~1.17.1"
+  },
+  "license": "MIT"
+}
