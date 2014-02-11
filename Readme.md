@@ -14,6 +14,7 @@ npm:
 ```javascript
 var Pool = require('subscription-pool');
 var Redis = require('subscription-pool/lib/drivers/redis');
+var driver = new Redis();
 var pool = new Pool(driver);
 
 var sub = pool.subscribe('awesomechannelname');
